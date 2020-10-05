@@ -1,11 +1,13 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_zzzNUdLN5jbeUjluhVQ1VPQX",
   s3: {
     REGION: "us-east-2",
     BUCKET: "visitorus-test-notes-app-uploads"
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://495hfbebad.execute-api.us-east-2.amazonaws.com/prod/"
+    URL: "https://495hfbebad.execute-api.us-east-2.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-2",
